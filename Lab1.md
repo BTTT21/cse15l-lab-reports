@@ -1,7 +1,7 @@
 # Lab 1
 
 Command cd:
-1. With no arguments, command cd would return to user's folder.
+1. With no arguments, command cd would return to home directory.
    ```
    # cd: no arguments
    bryantzhu@Bryants-MacBook Documents % ls
