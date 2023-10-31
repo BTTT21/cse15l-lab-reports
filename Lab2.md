@@ -65,8 +65,8 @@ class StringServer {
 
 **Part2:**
 
-><img width="503" alt="Screenshot 2023-10-17 at 8 16 41 PM" src="https://github.com/BTTT21/cse15l-lab-reports/assets/146874113/eb757fb4-4dee-4953-95e3-3cc1d5a5e8d9">  
-><img width="887" alt="Screenshot 2023-10-17 at 8 32 10 PM" src="https://github.com/BTTT21/cse15l-lab-reports/assets/146874113/6b943199-265d-439f-a527-f464db50fcab">
+<img width="473" alt="Screenshot 2023-10-31 at 9 35 33 AM" src="https://github.com/BTTT21/cse15l-lab-reports/assets/146874113/3dce2dd6-c69b-4944-b3e1-0b979eda5d7b">
+<img width="582" alt="Screenshot 2023-10-31 at 9 37 22 AM" src="https://github.com/BTTT21/cse15l-lab-reports/assets/146874113/135537d9-f26b-40c6-bd22-9903afc62631">
 ><img width="790" alt="Screenshot 2023-10-17 at 8 28 28 PM" src="https://github.com/BTTT21/cse15l-lab-reports/assets/146874113/0499125c-94ed-4d65-a128-0c954755aad4">
 ><img width="471" alt="Screenshot 2023-10-17 at 8 28 39 PM" src="https://github.com/BTTT21/cse15l-lab-reports/assets/146874113/7f424d4e-2e4c-4c05-9147-d7c18832fa68">  
 
