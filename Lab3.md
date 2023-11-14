@@ -76,36 +76,42 @@ static void reverseInPlace(int[] arr)
 
 **Part2:**
 
+Recourse: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+
 Command: find
+
+>-name option:  Search for a file with a specific name.  
+>It is useful when we know a file's name but forget where it stores.
 ```
-#-name option:  Search for a file with a specific name.
-#It is useful when we know a file's name but forget where it stores.
 find ./technical -name chapter-1.txt 
 ./technical/911report/chapter-1.txt
 find ./technical -name 1468-6708-3-1.txt 
 ./technical/biomed/1468-6708-3-1.txt
 ```
+
+>-exec rm -i {} \;  option: delete a file with a specific name and ask for confirmation.  
+>It is useful when we know a file's name and want to delete it.
 ```
-#-exec rm -i {} \;  option: delete a file with a specific name and ask for confirmation.
-#It is useful when we know a file's name and want to delete it.
 find ./technical -name chapter-1.txt -exec rm -i {} \;
 remove ./technical/911report/chapter-1.txt? n
 find ./technical -name bill.txt -exec rm -i {} \;
 remove ./technical/government/Env_Prot_Agen/bill.txt? n
 ```
+
+>-empty option: finds all empty folders and files in the entered directory or sub-directories.  
+>It is useful when we accidentally created unwanted folders or files and forgot where it stored.
 ```
-#-empty option: finds all empty folders and files in the entered directory or sub-directories.
-#It is useful when we accidentally created unwanted folders or files and forgot where it stored.
 find ./technical -empty
 #nothing here because no empty folder or file.
 find ./technical -empty #created a test empty folder and a test empty file.
 ./technical/test_empty_folder
 ./technical/911report/test_empty.txt
 ```
+
+>-type option: find specific type of files or folders.  
+>It is useful when we only want to see a certain type of files or folders.  
+>I use -type d in the examples and it only shows the folders.
 ```
-#-type option: find specific type of files or folders.
-#It is useful when we only want to see a certain type of files or folders.
-#I use -type d in the examples and it only shows the folders.
 find ./technical -type d
 ./technical
 ./technical/government
